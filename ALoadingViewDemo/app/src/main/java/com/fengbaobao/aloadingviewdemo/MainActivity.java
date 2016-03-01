@@ -1,7 +1,9 @@
 package com.fengbaobao.aloadingviewdemo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 /**
@@ -17,5 +19,15 @@ public class MainActivity extends Activity {
         setContentView(R.layout.act_main);
 
         Button bt_originalEffect = (Button) findViewById(R.id.bt_originalEffect);
+        Button bt_customMade = (Button) findViewById(R.id.bt_customMade);
+        Button bt_xmlSpecialMade = (Button) findViewById(R.id.bt_xmlSpecialMade);
+
+        bt_originalEffect.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mIntent = new Intent(MainActivity.this, OriginalEffectActivity.class);
+                startActivity(mIntent);
+            }
+        });
     }
 }

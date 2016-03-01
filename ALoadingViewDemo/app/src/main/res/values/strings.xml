@@ -3,4 +3,6 @@
     <string name="original_effect">原生的效果</string>
     <string name="custom_made">私人定制</string>
     <string name="xml_special_made">XML特殊订制</string>
+    <string name="my_empty_view_textview_label">自定义ALoadingView空页面TextView的文案</string>
+    <string name="my_empty_view_button_label">自定义ALoadingView空页面Button的文案</string>
 </resources>
