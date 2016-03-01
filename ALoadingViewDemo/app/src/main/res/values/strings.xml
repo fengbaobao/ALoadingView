@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ALoadingViewDemo</string>
+    <string name="original_effect">原生的效果</string>
+    <string name="custom_made">私人定制</string>
+    <string name="xml_special_made">XML特殊订制</string>
+</resources>

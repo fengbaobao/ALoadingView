@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <item name="aload_icon" type="id">aload_icon</item>
+  <item name="aload_info" type="id">aload_info</item>
+  <item name="btn_retry" type="id">btn_retry</item>
+  <item name="emptyClickView" type="id">emptyClickView</item>
+</resources>
