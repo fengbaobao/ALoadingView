@@ -29,5 +29,21 @@ public class MainActivity extends Activity {
                 startActivity(mIntent);
             }
         });
+
+        bt_customMade.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mIntent = new Intent(MainActivity.this, CustomMadeActivity.class);
+                startActivity(mIntent);
+            }
+        });
+
+        bt_xmlSpecialMade.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent mIntent = new Intent(MainActivity.this, XMLSpecialMadeActivity.class);
+                startActivity(mIntent);
+            }
+        });
     }
 }

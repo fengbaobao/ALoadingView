@@ -5,4 +5,5 @@
     <string name="xml_special_made">XML特殊订制</string>
     <string name="my_empty_view_textview_label">自定义ALoadingView空页面TextView的文案</string>
     <string name="my_empty_view_button_label">自定义ALoadingView空页面Button的文案</string>
+    <string name="my_xml_empty_view_button_label">XML控制的空页面Button的文案</string>
 </resources>

@@ -17,7 +17,7 @@ public class CustomMadeActivity extends Activity {
 
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.act_main);
+        setContentView(R.layout.act_custom_made_loading_demo);
 
         Button bt_showLoadingView = (Button) findViewById(R.id.bt_showLoadingView);
         Button bt_showEmptyView = (Button) findViewById(R.id.bt_showEmptyView);

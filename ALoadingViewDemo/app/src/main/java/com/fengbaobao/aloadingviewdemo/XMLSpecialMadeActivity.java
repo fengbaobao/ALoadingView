@@ -17,7 +17,7 @@ public class XMLSpecialMadeActivity extends Activity {
 
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.act_main);
+        setContentView(R.layout.act_xml_special_made_loading_demo);
 
         Button bt_showLoadingView = (Button) findViewById(R.id.bt_showLoadingView);
         Button bt_showEmptyView = (Button) findViewById(R.id.bt_showEmptyView);
@@ -25,6 +25,14 @@ public class XMLSpecialMadeActivity extends Activity {
         Button bt_showContentView = (Button) findViewById(R.id.bt_showContentView);
 
         final AloadingView loading_layout = (AloadingView) findViewById(R.id.loading_layout);
+        loading_layout.getEmptyViewBuilder().setText(R.id.bt_xmlEmptyButton, R.string.my_xml_empty_view_button_label).setImg(R.id.iv_xmlEmptyImg, R.drawable.i_love_u).setOnClickViewIds(R.id.xmlEmptyClickView).setOnDefaultClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                loading_layout.showLoading();
+            }
+        });
+
+
         bt_showLoadingView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
